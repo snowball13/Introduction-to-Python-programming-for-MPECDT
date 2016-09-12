@@ -38,6 +38,10 @@ while True:
     xdat.append(x)
     ydat.append(y)
 
+# Print to screen the max and min y data
+print "Max y val = ", max(ydat)
+print "Min y val = ", min(ydat)
+
 # Plot y against x, but we need to change lists to arrays first
 xdat = np.array(xdat)
 ydat = np.array(ydat)
